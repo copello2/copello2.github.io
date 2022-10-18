@@ -1,0 +1,200 @@
+*{
+	box-sizing: border-box;
+
+	
+
+}
+
+h1{
+	font-size: 3.5em;}
+h2{
+	font-size:2.7em;}
+h3{
+	font-size: 1.5em;}
+
+p{font-size: 1em;}
+
+body{
+	font-family: sans-serif;
+	margin: 0;
+
+
+
+}
+button{
+	font-size: 0.8em;
+	font-weight: bolder;
+	padding: 8px 7px;
+	border-radius: 10px;
+	border: 2px solid ;
+	color: whitesmoke;
+	background-color: #ABBF90;
+	
+}
+
+button:hover{
+	background-color: #BAC4AB;
+}
+
+.container{
+	max-width: 1400px;
+	margin: auto;
+}
+
+header{
+	background-color: #D9DED1;
+}
+
+header .logo{
+	margin: 0;
+	padding: 25px 30px;
+	font-weight: bold;
+	color: #8BA06C;
+	font-size: 1.5em;
+}
+
+header .container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-family: Copperplate Gothic;
+}
+
+#hero{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	flex-direction: column;
+	height: 76vh;
+	background-image:linear-gradient(
+		0deg,
+		rgba(0, 0, 0, 0.3),
+		rgba(0, 0, 0, 0.3)
+	)
+		,url(fondo.png);
+		background-repeat: no-repeat;
+		background-size: cover ;
+		background-position: center center;
+}
+
+.contador{
+	display: flex;
+	justify-content: space-evenly;
+	widht: 50%
+	flex-wrap: wrap;
+}
+
+.contador div{
+	color: #ABBF90;
+	display: grid;
+	align-items: center;
+	font-family: sans-serif;
+	
+}
+
+
+#CASAMIENTO .container{
+	text-align: center;
+	padding: 50px 12px;
+	font-family: Copperplate Gothic;
+	color : whitesmoke;
+
+}
+.color-distinto{
+	color: #A9C3A2;
+}
+
+#fiesta .container{
+	text-align: center;
+	padding: 80px 12px;
+	font-family: Copperplate Gothic;
+	color: whitesmoke;
+
+}
+
+#albumdefoto .container{
+	text-align: center;
+	padding: 80px 12px;
+	font-family: Copperplate Gothic;
+
+}
+
+
+
+
+#confirmarasistencia{
+	background-color: #F5DAEF;
+	font-family: Copperplate Gothic;
+}
+
+
+#confirmarasistencia{
+
+	text-align: center;
+}
+
+#CASAMIENTO .IMAGENIGLESIA {
+	margin: 0;
+	padding: 52px 20px;
+	border-radius: 4px ;
+	background-color: white;
+	background-repeat: no-repeat;
+	font-weight: bold;
+	background-position: center center;
+	background-image:linear-gradient(
+		0deg,
+		rgba(0, 0, 0, 0.5),
+		rgba(0, 0, 0, 0.5)
+	)
+		,url(fotoiglesia.png);
+}
+
+#fiesta .IMAGENFIESTA{
+	margin: 0;
+	padding: 45px 40px;
+	font-weight: bold;
+	border-radius: 5px ;
+	background-color: #E1D5DD;
+	background-position: center center;
+	background-image:linear-gradient(
+		0deg,
+		rgba(0, 0, 0, 0.5),
+		rgba(0, 0, 0, 0.5)
+	)
+		,url(fotobrindis.png);
+
+}
+
+#dia .container{
+	text-align: center;
+	padding: 10px 12px;
+	font-family: Copperplate Gothic;
+	color : black;
+}
+
+footer p{
+	color: #CDCDCD;
+	padding: 10px;
+	font-size: smaller;
+
+}
+
+@media(min-widht: 720px){
+	header{
+		position: fixed;
+		width: 100%;
+	}
+	header .container{
+		flex-direction: row;
+		justify-content: space-between;
+	
+
+	}
+
+
+
+
+
+
+
