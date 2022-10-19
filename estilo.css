@@ -67,6 +67,7 @@ header .container{
 	text-align: center;
 	flex-direction: column;
 	height: 76vh;
+	background-color: #D2BB9B;
 	font-family: sofia;
 	background-image:linear-gradient(
 		0deg,
